@@ -1,0 +1,210 @@
+
+
+{% extends "base.html" %}
+{% load staticfiles %}
+
+
+{% block content %}
+
+
+<div class="container">
+	<ul class="nav nav-tabs" >
+		   <li class="active"><a href="#apple"  data-toggle="tab">Apple</a></li>
+	      <li ><a href="#samsung"  data-toggle="tab">Samsung</a></li>
+	      <li ><a href="#micro"  data-toggle="tab">Xiaomi</a></li>
+	      <li ><a href="#vivo"  data-toggle="tab">Micromax</a></li>
+	  
+  </ul>
+
+  <div class="tab-content">
+  <div class="tab-pane fade in active" id="apple">
+<div class ="jumbotron">
+		  	<div class="container text-center">	
+						<h3>Apple is an American multinational technology company headquartered in Cupertino, California, that designs, develops, and sells consumer electronics, computer software, and online services.Apple was founded by Steve Jobs, Steve Wozniak, and Ronald Wayne in April 1976 to develop and sell personal computers.[6] It was incorporated as Apple Computer, Inc.</h3>
+						  		
+		  		<div class="btn.group">
+						  		<a href=""class="btn btn-lg btn-primary ">About</a>
+						  		<a href=""class="btn btn-lg btn-primary ">Gallery</a>
+						  		<a href=""class="btn btn-lg btn-primary ">Features</a>
+						  		<a href=""class="btn btn-lg btn-primary ">FaQ</a>
+						  		<a href=""class="btn btn-lg btn-primary ">Newsletter</a>
+				</div>
+
+		  </div>
+</div>
+<div class="container">
+	<section>
+
+		<div class="carousel slide" id="screenshot-carousel" data-ride="carousel">
+					<ol class="carousel-indicators">
+
+							<li data-target="#screenshot-carousel" data-slide.to="0" class="active"></li>
+							<li data-target="#screenshot-carousel" data-slide.to="1"></li>
+							<li data-target="#screenshot-carousel" data-slide.to="2"></li>
+							<li data-target="#screenshot-carousel" data-slide.to="3"></li>
+
+					</ol>
+
+					<div class="carousel-inner">
+						<div class="item active">
+
+						<img src="{% static 'img/13.jpg'%}" alt="image">
+
+
+						</div>
+						<div class="item">
+
+						<img src="{% static 'img/14.jpg'%}" alt="image">
+
+
+						</div>
+						<div class="item">
+
+						<img src="{% static 'img/15.jpg'%}" alt="image">
+
+
+						</div>
+						<div class="item">
+
+						<img src="{% static 'img/16.jpg'%}"" alt="image">
+
+
+						</div>
+						
+
+
+
+					</div>
+					<a href="#screenshot-carousel" class="left carousel-control" data-slide="prev">
+
+						<span class="glyphicon glyphicon-chevron-left">
+							
+
+						</span>
+						</a>
+						<a href="#screenshot-carousel" class="right carousel-control" data-slide="next">
+
+						<span class="glyphicon glyphicon-chevron-right">
+							
+
+						</span>
+						</a>
+
+			</div>
+</section>	
+
+
+	<div class="container">
+		<section>
+			<div class="page-header" id="features">
+  				<h2>Specs and Features</h2>
+  			</div><!-- End Page Header -->
+
+  			<div class="row">
+  				<div class="col-sm-7">
+  					<h3>Apple iPhone 7 Plus (256GB)</h3>
+  					<p>The Apple iPhone 7 Plus (256GB) features a 5.5-inch LED-backlit IPS display with a resolution of 1920 x 1080pixels. It comes with 256GB of inbuilt storage and has a 12.0-megapixel rear camera and 7.0-megapixel front camera. It comes with iOS 10 OS and with 3G & 4G.There are two other variants 128Gb and 32Gb</p>
+  					<ul>
+
+  					<ul><span class="glyphicon glyphicon-apple" aria-hidden="true"></span> Screen Size: 5.5 inches</ul>
+  					<ul><span class="glyphicon glyphicon-apple" aria-hidden="true"></span> Internal Memory: 256GB</ul>
+  					<ul><span class="glyphicon glyphicon-apple" aria-hidden="true"></span> OS: iOS 10</ul>
+  					<ul><span class="glyphicon glyphicon-apple" aria-hidden="true"></span> Sensor Resolution: 12MP</ul>
+  					<ul><span class="glyphicon glyphicon-apple" aria-hidden="true"></span> Price:Rs.89,000</ul>
+  					</ul>
+  				</div>
+  				<div class="col-sm-4">
+  					<img src="{% static 'img/17.jpg'%}" class="img-responsive" alt="image">
+  				</div>
+  			</div><!-- End row -->
+
+
+  			<div class="row">
+  				<div class="col-sm-7">
+  					<h3>Apple iPhone 6s Plus (128GB)</h3>
+  					<p>The Apple iPhone 6s Plus (128GB) features a 5.5-inch LED-backlit IPS display with a resolution of 1920 x 1080 pixels. It comes with 128GB of inbuilt storage and has a 12.0-megapixel rear camera and 5.0-megapixel front camera. It comes with Android iOS 9 OS and with 3G & 4G.There are two other variants, price differs</p>
+  					<ul>
+
+  					<ul><span class="glyphicon glyphicon-apple" aria-hidden="true"></span> Screen Size: 5.5 inches</ul>
+  					<ul><span class="glyphicon glyphicon-apple" aria-hidden="true"></span> Internal Memory: 128GB, 2GB RAM</ul>
+  					<ul><span class="glyphicon glyphicon-apple" aria-hidden="true"></span> OS: iOS 9</ul>
+  					<ul><span class="glyphicon glyphicon-apple" aria-hidden="true"></span> Sensor Resolution: 12MP</ul>
+  					<ul><span class="glyphicon glyphicon-apple" aria-hidden="true"></span> Price:Rs.84,000</ul>
+  					</ul>
+
+
+
+
+
+  				</div>
+  				<div class="col-sm-4">
+  					<img src="{% static 'img/19.jpg'%}" class="img-responsive" alt="image">
+  				</div>
+  			</div>
+  			<div class="row">
+  				<div class="col-sm-8">
+  					<h3>Apple iPhone 6 Plus (16GB)</h3>
+  					<p>The Apple iPhone 6 Plus (16GB) features a 5.5-inch LED-backlit IPS display with a resolution of 1920 x 1080 pixels. It comes with 16GB of inbuilt storage and has a 8.0-megapixel rear camera and 1.2-megapixel front camera. It comes with Android iOS 8 OS and with 3G & 4G</p>
+
+  					<ul>
+
+  					<ul><span class="glyphicon glyphicon-apple" aria-hidden="true"></span> Screen Size: 5.5 inches</ul>
+  					<ul><span class="glyphicon glyphicon-apple" aria-hidden="true"></span> Internal Memory: 16GB</ul>
+  					<ul><span class="glyphicon glyphicon-apple" aria-hidden="true"></span> OS: iOS 8</ul>
+  					<ul><span class="glyphicon glyphicon-apple" aria-hidden="true"></span> Sensor Resolution: 8MP</ul>
+  					<ul><span class="glyphicon glyphicon-apple" aria-hidden="true"></span> Price:Rs.42,000</ul>
+  					</ul>
+
+
+
+
+
+  				</div>
+  				<div class="col-sm-4">
+  					<img src="{% static 'img/19.jpg'%}" class="img-responsive" alt="image"></div>
+  			</div>
+
+  			<hr>
+
+  			<div class="row">
+  				<div class="col-sm-4">
+  					<div class="panel panel-default text-center">
+  						<div class="panel-body">
+  							<span class="glyphicon glyphicon-ok"></span>
+  							<h4>Facts</h4>
+  							<p>Apple originally had three co-founders. The third co-founder, a man named Ronald Wayne, had joined co-founders, Steve Jobs and Steve Wozniak but he left the company only 12 days after it was founded. He sold his 10% share for only $800 and got an additional payout of $1,500. Had Wayne stayed with the company, his shares would be worth today around $60 billion!</p>
+  						</div>
+  					</div>
+  				</div>
+
+  				<div class="col-sm-4">
+  					<div class="panel panel-default text-center">
+  						<div class="panel-body">
+  							<span class="glyphicon glyphicon-star"></span>
+  							<h4>This is the Heading</h4>
+  							<p>Nam velit est, tempor vel posuere et, auctor a lectus. Aenean gravida, est accumsan dictum rhoncus, lectus mi suscipit lacus, suscipit accumsan augue tellus vitae dolor. Morbi in euismod dui</p>
+  						</div>
+  					</div>
+  				</div>
+
+  				<div class="col-sm-4">
+  					<div class="panel panel-default text-center">
+  						<div class="panel-body">
+  							<span class="glyphicon glyphicon-play-circle"></span>
+  							<h4>This is the Heading</h4>
+  							<p>Nam velit est, tempor vel posuere et, auctor a lectus. Aenean gravida, est accumsan dictum rhoncus, lectus mi suscipit lacus, suscipit accumsan augue tellus vitae dolor. Morbi in euismod dui</p>
+  						</div>
+  					</div>
+  				</div>
+  					</div>
+  </div>
+</div>
+</div>
+
+
+
+</div>
+</section>
+</div>
+
+{% endblock %}

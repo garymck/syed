@@ -1,0 +1,256 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block content %}
+
+<style >
+.jumbotron{
+color:#17202A;
+
+}
+body{
+
+background-color: #17202A;
+color: #FFF;
+
+
+
+}
+
+</style>
+
+
+<div class="container"><!-- gallery container -->
+	<section>
+			
+
+				<div class="carousel slide" id="screenshot-carousel" data-ride="carousel">
+					<ol class="carousel-indicators">
+
+							<li data-target="#screenshot-carousel" data-slide.to="0" class="active"></li>
+							<li data-target="#screenshot-carousel" data-slide.to="1"></li>
+							<li data-target="#screenshot-carousel" data-slide.to="2"></li>
+							<li data-target="#screenshot-carousel" data-slide.to="3"></li>
+              <li data-target="#screenshot-carousel" data-slide.to="4"></li>
+              <li data-target="#screenshot-carousel" data-slide.to="5"></li>
+
+					</ol>
+
+					<div class="carousel-inner">
+						<div class="item active">
+
+						<img src="{% static 'img/frh1.jpg'%}" alt="image">
+
+
+						</div>
+						<div class="item">
+
+						<img src="{% static 'img/frh2.jpg'%}" alt="image">
+
+
+						</div>
+						<div class="item">
+
+						<img src="{% static 'img/frh3.jpg'%}" alt="image">
+
+
+						</div>
+						<div class="item">
+
+						<img src="{% static 'img/frh4.jpg'%}" alt="image">
+
+
+						</div>
+						
+            <div class="item">
+
+            <img src="{% static 'img/frh5.jpg'%}" alt="image">
+
+
+            </div>
+            
+            <div class="item">
+
+            <img src="{% static 'img/frh6.jpg'%}" alt="image">
+
+
+            </div>
+            
+
+
+
+					</div>
+					<a href="#screenshot-carousel" class="left carousel-control" data-slide="prev">
+
+						<span class="glyphicon glyphicon-chevron-left">
+							
+
+						</span>
+						</a>
+						<a href="#screenshot-carousel" class="right carousel-control" data-slide="next">
+
+						<span class="glyphicon glyphicon-chevron-right">
+							
+
+						</span>
+						</a>
+
+			</div>
+
+
+
+
+
+	</section>	
+
+
+
+
+</div><!-- gallery -->
+<br>
+<br>
+
+
+
+
+
+
+
+<div class="jumbotron">
+
+        
+         
+            <button class="btn btn-info"><h4>Key Features</h4></button>
+            <br>
+            <br>
+
+            
+           <ul>
+
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Platforms: PS4, Xbox One, PC</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Genre: Tactical third-person shooter</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Developer: Ubisoft Paris</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Manufacturer: Ubisoft</ul>
+            
+            </ul>
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+
+
+			<div class="jumbotron">
+  			<div class="row"><!-- starting row -->
+  				
+  					<button class="btn btn-info"><h4>Game Overview</h4></button>
+  					<br>
+  					<br>
+            <ul>
+            <p>For Honor stole my heart at E3 even before a second of gameplay was shown. This is because of director Jason VandenBerghe’s passion, which oozed through every word he spoke. I enjoyed the surprising level of strategy employed by its simple controls in my brief time with the game. Getting the chance to play much more recently, its multiplayer combat is still as intense, but its solo campaign isn’t up for the fight.</p>
+
+            <p>Before playing For Honor, Ubisoft wanted to discuss its plans for the metagame and post-launch content. You’ll be pleased to know the developer is taking an approach very similar to Rainbow Six: Siege, with playable content free for all players in order to avoid segregating the gamers. At launch there will be 12 maps, each with four to six variants, bringing the total number of battlefields to 60. But expect new maps to be released after release. </p>
+          <p>Also, to keep players in For Honor and not moving over to the 500 other games vying for their attention, there will be a “Faction War” metagame. By selecting one of the three factions (Viking, Samurai or Knight) everything you do in the game will earn points toward that faction. The winning faction crowned at the end of each season (seasons lasting ten weeks total). Winners will be rewarding with crates containing items to customise your warriors. The more you compete, the greater the reward.</p>
+
+            </ul>
+
+  					
+  				
+
+
+  			</div><!-- End row -->
+  			</div>
+
+</div><!-- container -->
+
+
+
+<div class="container">
+
+
+			<div class="jumbotron">
+			<h3>Developer-defined System Requirements</h3>
+  			<div class="row"><!-- starting row -->
+  				<div class="col-sm-6"><!-- starting column -->
+  					<button class="btn btn-info"><h4>Minimum Requirements</h4></button>
+  					<br>
+  					<br>
+
+            <ul>
+
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span>Intel CPU:Core i3-550 3.2GHz</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span>AMD CPU:Phenom II X4 955</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Nvidia Graphics Card:GeForce GTX 460</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> AMD Graphics Card:Radeon HD 5770 1024MB</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> VRAM:1 GB</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> RAM: 8 GB</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> OS:64-bit Windows 7 </ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Direct X: DX 11</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> HDD Space: 30 GB</ul>
+
+            </ul>
+
+  					
+  				</div><!-- end column -->
+
+  				
+
+  				<div class="col-sm-6"><!-- starting column -->
+  					<button class="btn btn-info"><h4>Recommended Sys Requirements</h4></button>
+  					<br>
+  					<br>
+
+            <ul>
+
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span>Intel CPU: Core i7-2600K 4-Core 3.40GHz</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span>AMD CPU:FX-8350</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Nvidia Graphics Card:GeForce GTX 780</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> AMD Graphics Card:Radeon R9 280X</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> VRAM:3 GB</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> RAM:16 GB</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> OS: Win 10 64</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Direct X: DX 11</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> HDD Space: 35 GB</ul>
+                        
+            </ul>
+
+  					
+  				</div><!-- end column -->
+
+
+  			</div><!-- End row -->
+  			</div>
+
+</div><!-- container -->
+
+<div class="jumbotron">
+<div class="text-center">
+
+           <iframe width="560" height="315" src="https://www.youtube.com/embed/YuuJZ2m2x0k" frameborder="0" allowfullscreen></iframe>
+          
+
+
+</div>
+  
+
+
+</div>
+
+
+
+
+
+
+{%endblock%}

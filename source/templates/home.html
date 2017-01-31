@@ -1,0 +1,149 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+{% load staticfiles %}
+
+
+
+
+<style>
+{% block style %}
+.navbar-static-top {
+	margin-bottom: 0px !important;
+}
+
+.jumbotron{
+background-color:#FFF ;
+color:#17202A;
+
+}
+
+body{
+background-color:#17202A; 
+color: #FFF;	
+
+
+
+}
+
+
+
+{% endblock %}
+</style>
+
+
+     
+{% block jumbotron %}
+ {% if not request.user.is_authenticated %}
+<div class="container">
+ <div class ="jumbotron">
+  	<div class="container text-center">	
+
+  	<h1>Tech Arena</h1>
+  		<p><h3>To get weekly newsletters about the latest gadgets Sign Up below</h3> </p>
+  		<div class="btn.group">
+  		<a href="{% url 'mobiles' %}"class="btn btn-lg btn-warning ">Mobiles</a>
+  		<a href="{% url 'gaming' %}"class="btn btn-lg btn-default ">Gaming</a>
+  		<a href="{% url 'laptops' %}"class="btn btn-lg btn-warning ">Laptops</a>
+
+  		</div>
+
+  		</div>
+</div>
+</div>
+
+
+ {% endif %}
+{% endblock %}
+
+
+
+
+{% block content %}
+ {% if request.user.is_authenticated %}
+<h1>You are logged in!</h1>
+
+{% else %}
+<div class="row">
+
+  <div class="col-sm-3 pull-right">
+  	
+			<p class='lead text-align-center'>{{ title }}</p>
+
+			<form method='POST' action=''>{% csrf_token %}
+			{{ form|crispy }}
+
+			<input class='btn btn-primary' type='submit' value='Sign Up' />
+
+			</form>
+	</div>
+
+<div class='col-sm-3'>
+<p class='lead text-align-center'> Gaming </p>
+<img src='{% static "img/10.jpg" %}' class='img-responsive' />
+</div>
+
+
+
+<div class='col-sm-3'>
+<p class='lead text-align-center'> Mobiles</p>
+<img src='{% static "img/12.jpg" %}' class='img-responsive' />
+</div>
+
+
+
+<div class='col-sm-3'>
+<p class='lead text-align-center'>Laptops</p>
+<img src='{% static "img/d5.jpeg" %}' class='img-responsive' />
+</div>
+
+
+</div>
+
+<div>
+	<section>
+		<div class="page-header" id="feedback" 
+
+		<h2>Weird Facts</h2>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-4">
+
+				<blockquote>
+					<p>Apple have a ‘no smoking’ ban regarding their computers. As ridiculous as it sounds, but if you smoke while using an Apple computer, you void the warranty – you’ve been warned! </p>
+					
+				</blockquote>
+				</div>
+				
+				<div class="col-lg-4">
+
+				<blockquote>
+				<p>“Mario was actually named after the landlord of Nintendo’s first warehouse Mr. Mario Segale. The original name of Mario was actually Mr. Video Game which ended up becoming Mr. Segale’s nickname speaking of Mario he is actually appearing in over a hundred and twenty video games. </p>
+			
+				</blockquote>
+				</div>
+<div class="col-lg-4">
+
+				<blockquote>
+				<p>Even with an estimated net worth of $7 billion, for the last 15 years with the company, CEO Steve Jobs was only paid $1 so he could qualify for the company’s health benefits.</p>
+				
+				</blockquote>
+				</div>
+
+
+
+	</section>
+
+
+
+
+
+
+</div>
+
+
+	{% endif %}
+
+
+{% endblock %}
+

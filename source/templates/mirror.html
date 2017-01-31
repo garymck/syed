@@ -1,0 +1,258 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block content %}
+
+<style >
+.jumbotron{
+color:#17202A;
+
+}
+body{
+
+background-color: #17202A;
+color: #FFF;
+
+
+
+}
+
+</style>
+
+
+<div class="container"><!-- gallery container -->
+	<section>
+			
+
+				<div class="carousel slide" id="screenshot-carousel" data-ride="carousel">
+					<ol class="carousel-indicators">
+
+							<li data-target="#screenshot-carousel" data-slide.to="0" class="active"></li>
+							<li data-target="#screenshot-carousel" data-slide.to="1"></li>
+							<li data-target="#screenshot-carousel" data-slide.to="2"></li>
+							<li data-target="#screenshot-carousel" data-slide.to="3"></li>
+              <li data-target="#screenshot-carousel" data-slide.to="4"></li>
+              <li data-target="#screenshot-carousel" data-slide.to="5"></li>
+
+					</ol>
+
+					<div class="carousel-inner">
+						<div class="item active">
+
+						<img src="{% static 'img/mir1.jpg'%}" alt="image">
+
+
+						</div>
+						<div class="item">
+
+						<img src="{% static 'img/mir2.jpg'%}" alt="image">
+
+
+						</div>
+						<div class="item">
+
+						<img src="{% static 'img/mir3.jpg'%}" alt="image">
+
+
+						</div>
+						<div class="item">
+
+						<img src="{% static 'img/mir4.jpg'%}" alt="image">
+
+
+						</div>
+						
+            <div class="item">
+
+            <img src="{% static 'img/mir5.jpg'%}" alt="image">
+
+
+            </div>
+            
+            <div class="item">
+
+            <img src="{% static 'img/mir6.jpg'%}" alt="image">
+
+
+            </div>
+            
+
+
+
+					</div>
+					<a href="#screenshot-carousel" class="left carousel-control" data-slide="prev">
+
+						<span class="glyphicon glyphicon-chevron-left">
+							
+
+						</span>
+						</a>
+						<a href="#screenshot-carousel" class="right carousel-control" data-slide="next">
+
+						<span class="glyphicon glyphicon-chevron-right">
+							
+
+						</span>
+						</a>
+
+			</div>
+
+
+
+
+
+	</section>	
+
+
+
+
+</div><!-- gallery -->
+<br>
+<br>
+
+
+
+
+
+
+
+<div class="jumbotron">
+
+        
+         
+            <button class="btn btn-info"><h4>Key Features</h4></button>
+            <br>
+            <br>
+
+            
+           <ul>
+
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Platforms: PS4, Xbox One,PC</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Genre: Tactical third-person shooter</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Developer: EA DICE</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Manufacturer: EA</ul>
+            
+            </ul>
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+
+
+			<div class="jumbotron">
+  			<div class="row"><!-- starting row -->
+  				
+  					<button class="btn btn-info"><h4>Game Overview</h4></button>
+  					<br>
+  					<br>
+            <ul>
+            <p>I consider myself one of the original Mirror’s Edge’s biggest fans. The 2008 first-person parkour platformer struck me as bold as it was beautiful, and it remains a game I revisit every year or so. In fact, I was so excited for its revival I actually cheered when Mirror’s Edge Catalyst was confirmed by EA. It’s one of the biggest letdowns of my gaming life, then, that playing through this half-prequel, half-reboot was an exercise in enthusiasm-draining disappointment. Catalyst is hardly a bad game, thanks to the strength of its movement systems, but everything else about it is so uninspiring that I get sad when I recall my initial reaction to its announcement.</p>
+
+            <p>Running is supposed to release endorphins that make people happy, but Faith Connors and her friends don’t seem to take any joy in being off-the-grid mailmen in the city of Glass’ Big Brother-ruled future. Literally everyone in Mirror’s Edge Catalyst is sullen at best or angry at worst, and without a shred of humor or levity it becomes a huge downer. Fun fact: you won’t see a single smile in this entire eight to 10-hour story campaign (more if you fill it out with sidequests) until Faith finally cracks a grin in the post-credits scene. Character development is nonexistent, and worse, everyone – including Faith herself – is completely unlikable. </p>
+
+
+          <p>The main story arc is both thin and predictable, and Faith’s own flashback-fueled backstory is lifted almost directly out of the Bruce Wayne playbook. You may not have liked the animated, eSurance-looking cutscenes that told the story of the original Mirror’s Edge, but the first game’s simpler plot did a lot more with a lot less than Catalyst does with its convoluted, pointless mess. Given that this is a prequel, it’s not surprising (or a spoiler) when Catalyst more or less comes right out and says, “Welp, you’d expect things to have changed after all this, but nope, everything’s the same” at the end of the campaign, but it is disappointing. It only reinforced the apathy I felt toward the characters the entire time.</p>
+
+            </ul>
+
+  					
+  				
+
+
+  			</div><!-- End row -->
+  			</div>
+
+</div><!-- container -->
+
+
+
+<div class="container">
+
+
+			<div class="jumbotron">
+			<h3>Developer-defined System Requirements</h3>
+  			<div class="row"><!-- starting row -->
+  				<div class="col-sm-6"><!-- starting column -->
+  					<button class="btn btn-info"><h4>Minimum Requirements</h4></button>
+  					<br>
+  					<br>
+
+            <ul>
+
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span>Intel CPU:Intel i3-3250</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span>AMD CPU:AMD FX-6350 </ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Nvidia Graphics Card:: Nvidia GeForce GTX 650 Ti 2GB</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> AMD Graphics Card:AMD Radeon R9 270x</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> VRAM:1 GB</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> RAM: 6 GB</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> OS:64-bit Windows 7 </ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Direct X: DX 11</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> HDD Space: 30 GB</ul>
+
+            </ul>
+
+  					
+  				</div><!-- end column -->
+
+  				
+
+  				<div class="col-sm-6"><!-- starting column -->
+  					<button class="btn btn-info"><h4>Recommended Sys Requirements</h4></button>
+  					<br>
+  					<br>
+
+            <ul>
+
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span>Intel CPU:Core i7-3770 at 3.4 GHz</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span>AMD CPU:AMD FX-8350 at 4.0 GHz</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Nvidia Graphics Card:GeForce GTX 970 4GB </ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> AMD Graphics Card:AMD Radeon R9 280x 3GB </ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> VRAM:3 GB</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> RAM:16 GB</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> OS: Win 10 64</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Direct X: DX 11</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> HDD Space: 35 GB</ul>
+                        
+            </ul>
+
+  					
+  				</div><!-- end column -->
+
+
+  			</div><!-- End row -->
+  			</div>
+
+</div><!-- container -->
+
+
+<div class="text-center">
+
+           <iframe width="560" height="315" src="https://www.youtube.com/embed/7GDLeI9_qZo" frameborder="0" allowfullscreen></iframe>
+          
+
+
+</div>
+  
+
+
+
+
+
+
+
+
+
+{%endblock%}

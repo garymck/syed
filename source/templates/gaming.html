@@ -1,0 +1,85 @@
+
+{% extends "base.html" %}
+{% load staticfiles %}
+
+
+
+{% block content %}
+
+<style >
+.jumbotron{
+background-color:#FFF ;
+color:#17202A;
+
+}
+body{
+
+background-image:url({% static 'img/body2.jpg' %}); 
+color: #FFF
+
+
+
+}
+
+</style>
+
+
+
+
+
+
+<div class="container"><!-- container1 -->
+<h2>Best Graphics Games </h2>
+
+<ul>
+  <li>
+<a href="{% url 'tomclansy' %}"class="btn btn btn-primary ">Tom Clansy's Ghost Racon Wildlands</a>
+
+  </li>
+   <li>
+
+   <a href="{% url 'witcher' %}"class="btn btn btn-primary ">The Witcher 3:Wild Hunt</a>
+    <li>
+    <a href="{% url 'sniper' %}"class="btn btn btn-primary ">Sniper:Ghost Warrior 3</a>
+    </li>
+     <li>
+
+     <a href="{% url 'forhonor' %}"class="btn btn btn-primary ">For Honor</a>
+     </li>
+      <li>
+
+      <a href="{% url 'zero' %}"class="btn btn btn-primary ">Horizon Zero Dawn</a>
+      </li>
+       <li>
+       <a href="{% url 'mirror' %}"class="btn btn btn-primary ">Mirror's Edge 2</a>
+
+       </li>
+        <li>
+        <a href="{% url 'dead' %}"class="btn btn btn-primary ">Dead Island 2</a>
+        </li>
+         <li>
+         <a href="{% url 'king' %}"class="btn btn btn-primary ">DeadPool</a>
+
+         </li>
+          <li>
+          <a href="{% url 'mafia' %}"class="btn btn btn-primary ">Mafia 3</a>
+
+          </li>
+           <li>
+           <a href="{% url 'mobiles' %}"class="btn btn btn-primary ">Farcry 5 Primal</a>
+           </li>
+
+
+
+
+
+
+
+</ul>
+
+
+
+  </div><!-- container -->
+
+
+{% endblock %}

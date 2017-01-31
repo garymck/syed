@@ -1,0 +1,975 @@
+
+{% extends "base.html" %}
+{% load staticfiles %}
+
+
+{% block content %}
+
+<style >
+.jumbotron{
+background-color:#FFF ;
+color:#17202A;
+
+}
+body{
+background-color:#17202A; 
+
+
+
+}
+
+
+</style>
+
+
+
+
+
+<div class="container"><!-- container1 -->
+<ul class="nav nav-tabs">
+	<li class="active"><a href="#apple" data-toggle="tab">Apple</a></li>
+	<li><a href="#s" data-toggle="tab">Samsung</a></li>
+	<li><a href="#x" data-toggle="tab">Xiaomi</a></li>
+	
+</ul>
+
+<div class="tab-content"><!-- tab content -->
+	<div class="tab-pane active" id="apple"><!-- tab1 -->
+<div class ="jumbotron"><!-- jju,m1 -->
+
+<div class="row">
+	<div class="col-sm-5">
+		<img src="{% static 'img/apple.png' %}" alt="image">
+		</div>
+
+
+
+  	<div class="col-sm-7">	
+
+  	<h3>Apple is an American multinational technology company headquartered in Cupertino.Apple was founded by Steve Jobs, Steve Wozniak, and Ronald Wayne in April 1976 to develop and sell personal computers. It was incorporated as Apple Computer, Inc.</h3>
+  		
+  		</div>
+
+  		</div>
+</div><!-- end jum1 -->
+
+
+	<section>
+			
+				<div class="carousel slide" id="screenshot-carousel" data-ride="carousel">
+					<ol class="carousel-indicators">
+
+							<li data-target="#screenshot-carousel" data-slide.to="0" class="active"></li>
+							<li data-target="#screenshot-carousel" data-slide.to="1"></li>
+							<li data-target="#screenshot-carousel" data-slide.to="2"></li>
+							<li data-target="#screenshot-carousel" data-slide.to="3"></li>
+
+					</ol>
+
+					<div class="carousel-inner">
+						<div class="item active">
+
+						<img src="{% static 'img/13.jpg'%}" alt="image">
+
+
+						</div>
+						<div class="item">
+
+						<img src="{% static 'img/a2.jpg'%}" alt="image">
+
+
+						</div>
+						<div class="item">
+
+						<img src="{% static 'img/a3.jpg'%}" alt="image">
+
+
+						</div>
+						<div class="item">
+
+						<img src="{% static 'img/a4.jpg'%}" alt="image">
+
+
+						</div>
+						
+
+
+
+					</div>
+					<a href="#screenshot-carousel" class="left carousel-control" data-slide="prev">
+
+						<span class="glyphicon glyphicon-chevron-left">
+							
+
+						</span>
+						</a>
+						<a href="#screenshot-carousel" class="right carousel-control" data-slide="next">
+
+						<span class="glyphicon glyphicon-chevron-right">
+							
+
+						</span>
+						</a>
+
+			</div>
+
+
+
+
+
+	</section>	
+
+
+
+	<!-- features -->
+<h3>Features and Specs</h3>
+<br>
+<br>
+
+
+			<div class="jumbotron">
+			  			<div class="row">
+  				<div class="col-sm-7">
+  					<h3>Apple iPhone 7 Plus (256GB)</h3>
+  					
+  					<ul>
+
+  					<ul><span class="glyphicon glyphicon-apple" aria-hidden="true"></span> Screen Size: 5.5 inches</ul>
+  					<ul><span class="glyphicon glyphicon-apple" aria-hidden="true"></span> Internal Memory: 256GB</ul>
+  					<ul><span class="glyphicon glyphicon-apple" aria-hidden="true"></span> OS: iOS 10</ul>
+  					<ul><span class="glyphicon glyphicon-apple" aria-hidden="true"></span> Sensor Resolution: 12MP</ul>
+  					<ul><span class="glyphicon glyphicon-apple" aria-hidden="true"></span> Price:Rs.89,000</ul>
+  					</ul>
+  				</div>
+  				<div class="col-sm-4">
+  					<a href="{% url 'apple' %}"><img src="{% static 'img/17.jpg'%}" class="img-responsive" alt="image"></a>
+  				</div>
+
+
+
+
+
+
+  			</div><!-- End row -->
+  			</div>
+
+
+
+  			<br>
+<br>
+<br>
+<br>
+  	
+			<div class="jumbotron">
+
+  			<div class="row">
+  				<div class="col-sm-7">
+  					<h3>Apple iPhone 6s Plus (128GB)</h3>
+  					
+  					<ul>
+
+  					<ul><span class="glyphicon glyphicon-apple" aria-hidden="true"></span> Screen Size: 5.5 inches</ul>
+  					<ul><span class="glyphicon glyphicon-apple" aria-hidden="true"></span> Internal Memory: 128GB, 2GB RAM</ul>
+  					<ul><span class="glyphicon glyphicon-apple" aria-hidden="true"></span> OS: iOS 9</ul>
+  					<ul><span class="glyphicon glyphicon-apple" aria-hidden="true"></span> Sensor Resolution: 12MP</ul>
+  					<ul><span class="glyphicon glyphicon-apple" aria-hidden="true"></span> Price:Rs.84,000</ul>
+  					</ul>
+
+
+
+
+
+  				</div>
+
+
+
+
+  				<div class="col-sm-4">
+  					<a href="{% url 'apple' %}"><img src="{% static 'img/19.jpg'%}" class="img-responsive" alt="image"></a>
+  				</div>
+  			</div>
+
+  			</div>
+
+
+        <div class="jumbotron">
+
+        <div class="row">
+          <div class="col-sm-7">
+            <h3>Apple iPhone 6s Plus (128GB)</h3>
+            
+            <ul>
+
+            <ul><span class="glyphicon glyphicon-apple" aria-hidden="true"></span> Screen Size: 5.5 inches</ul>
+            <ul><span class="glyphicon glyphicon-apple" aria-hidden="true"></span> Internal Memory: 128GB, 2GB RAM</ul>
+            <ul><span class="glyphicon glyphicon-apple" aria-hidden="true"></span> OS: iOS 9</ul>
+            <ul><span class="glyphicon glyphicon-apple" aria-hidden="true"></span> Sensor Resolution: 12MP</ul>
+            <ul><span class="glyphicon glyphicon-apple" aria-hidden="true"></span> Price:Rs.84,000</ul>
+            </ul>
+
+
+
+
+
+          </div>
+
+
+
+
+          <div class="col-sm-4">
+            <a href="{% url 'apple' %}"><img src="{% static 'img/19.jpg'%}" class="img-responsive" alt="image"></a>
+          </div>
+        </div>
+
+        </div>
+
+
+        <div class="jumbotron">
+
+        <div class="row">
+          <div class="col-sm-7">
+            <h3>Apple iPhone 6s Plus (128GB)</h3>
+            
+            <ul>
+
+            <ul><span class="glyphicon glyphicon-apple" aria-hidden="true"></span> Screen Size: 5.5 inches</ul>
+            <ul><span class="glyphicon glyphicon-apple" aria-hidden="true"></span> Internal Memory: 128GB, 2GB RAM</ul>
+            <ul><span class="glyphicon glyphicon-apple" aria-hidden="true"></span> OS: iOS 9</ul>
+            <ul><span class="glyphicon glyphicon-apple" aria-hidden="true"></span> Sensor Resolution: 12MP</ul>
+            <ul><span class="glyphicon glyphicon-apple" aria-hidden="true"></span> Price:Rs.84,000</ul>
+            </ul>
+
+
+
+
+
+          </div>
+
+
+
+
+          <div class="col-sm-4">
+            <a href="{% url 'apple' %}"><img src="{% static 'img/19.jpg'%}" class="img-responsive" alt="image"></a>
+          </div>
+        </div>
+
+        </div>
+
+
+        <div class="jumbotron">
+
+        <div class="row">
+          <div class="col-sm-7">
+            <h3>Apple iPhone 6s Plus (128GB)</h3>
+            
+            <ul>
+
+            <ul><span class="glyphicon glyphicon-apple" aria-hidden="true"></span> Screen Size: 5.5 inches</ul>
+            <ul><span class="glyphicon glyphicon-apple" aria-hidden="true"></span> Internal Memory: 128GB, 2GB RAM</ul>
+            <ul><span class="glyphicon glyphicon-apple" aria-hidden="true"></span> OS: iOS 9</ul>
+            <ul><span class="glyphicon glyphicon-apple" aria-hidden="true"></span> Sensor Resolution: 12MP</ul>
+            <ul><span class="glyphicon glyphicon-apple" aria-hidden="true"></span> Price:Rs.84,000</ul>
+            </ul>
+
+
+
+
+
+          </div>
+
+
+
+
+          <div class="col-sm-4">
+            <a href="{% url 'apple' %}"><img src="{% static 'img/19.jpg'%}" class="img-responsive" alt="image"></a>
+          </div>
+        </div>
+
+        </div>
+
+
+        <div class="jumbotron">
+
+        <div class="row">
+          <div class="col-sm-7">
+            <h3>Apple iPhone 6s Plus (128GB)</h3>
+            
+            <ul>
+
+            <ul><span class="glyphicon glyphicon-apple" aria-hidden="true"></span> Screen Size: 5.5 inches</ul>
+            <ul><span class="glyphicon glyphicon-apple" aria-hidden="true"></span> Internal Memory: 128GB, 2GB RAM</ul>
+            <ul><span class="glyphicon glyphicon-apple" aria-hidden="true"></span> OS: iOS 9</ul>
+            <ul><span class="glyphicon glyphicon-apple" aria-hidden="true"></span> Sensor Resolution: 12MP</ul>
+            <ul><span class="glyphicon glyphicon-apple" aria-hidden="true"></span> Price:Rs.84,000</ul>
+            </ul>
+
+
+
+
+
+          </div>
+
+
+
+
+          <div class="col-sm-4">
+            <a href="{% url 'apple' %}"><img src="{% static 'img/19.jpg'%}" class="img-responsive" alt="image"></a>
+          </div>
+        </div>
+
+        </div>
+
+
+
+
+
+  			<br>
+<br>
+<br>
+<br>
+  			<div class="jumbotron">
+  			<div class="row">
+  				<div class="col-sm-7">
+  					<h3>Apple iPhone 6 Plus (16GB)</h3>
+  					
+
+  					<ul>
+
+  					<ul><span class="glyphicon glyphicon-apple" aria-hidden="true"></span> Screen Size: 5.5 inches</ul>
+  					<ul><span class="glyphicon glyphicon-apple" aria-hidden="true"></span> Internal Memory: 16GB</ul>
+  					<ul><span class="glyphicon glyphicon-apple" aria-hidden="true"></span> OS: iOS 8</ul>
+  					<ul><span class="glyphicon glyphicon-apple" aria-hidden="true"></span> Sensor Resolution: 8MP</ul>
+  					<ul><span class="glyphicon glyphicon-apple" aria-hidden="true"></span> Price:Rs.42,000</ul>
+  					</ul>
+
+
+
+
+
+  				</div>
+  				<div class="col-sm-5">
+  					<a href="{% url 'apple' %}"><img src="{% static 'img/19.jpg'%}" class="img-responsive" alt="image"></div></a>
+  			</div>
+  			</div>
+  		
+	
+
+
+
+	</div><!-- end tab1 -->
+
+
+	<div class="tab-pane" id="s"><!-- tab2 -->
+	<div class ="jumbotron"><!-- jju,m2 -->
+   
+  		<div class="row">
+	<div class="col-sm-5">
+		<img src="{% static 'img/samsung.png' %}" alt="image">
+		</div>
+
+
+
+  	<div class="col-sm-7">	
+
+  	<h3>Founded back in 1969 as Samsung Electric Industries, Suwon, South Korea-headquartered Samsung Electronics today makes everything from televisions to semiconductors. It released its first Android smartphone in 2009, and can be credited with the launch of the first Android tablet back in 2010</h3>
+  		
+  		</div>
+
+  		</div>
+</div><!-- end jum2 -->
+
+
+
+
+	<section>
+			
+				<div class="carousel slide" id="screenshot-carousel" data-ride="carousel">
+					<ol class="carousel-indicators">
+
+							<li data-target="#screenshot-carousel" data-slide.to="0" class="active"></li>
+							<li data-target="#screenshot-carousel" data-slide.to="1"></li>
+							<li data-target="#screenshot-carousel" data-slide.to="2"></li>
+							<li data-target="#screenshot-carousel" data-slide.to="3"></li>
+
+					</ol>
+
+					<div class="carousel-inner">
+						<div class="item active">
+
+						<img src="{% static 'img/s1.jpg'%}" alt="image">
+
+
+						</div>
+						<div class="item">
+
+						<img src="{% static 'img/s2.jpg'%}" alt="image">
+
+
+						</div>
+						<div class="item">
+
+						<img src="{% static 'img/s3.jpg'%}" alt="image">
+
+
+						</div>
+						<div class="item">
+
+						<img src="{% static 'img/s4.jpg'%}" alt="image">
+
+
+						</div>
+						
+
+
+
+					</div>
+					<a href="#screenshot-carousel" class="left carousel-control" data-slide="prev">
+
+						<span class="glyphicon glyphicon-chevron-left">
+							
+
+						</span>
+						</a>
+						<a href="#screenshot-carousel" class="right carousel-control" data-slide="next">
+
+						<span class="glyphicon glyphicon-chevron-right">
+							
+
+						</span>
+						</a>
+
+			</div>
+
+
+
+
+
+	</section>	
+
+
+
+
+	<!-- features -->
+<h3>Features and Specs</h3>
+<br>
+<br>
+
+<div class="jumbotron">
+<div class="row">
+  				<div class="col-sm-7">
+  					<h3>Samsung Galaxy J7 Prime 16 GB </h3>
+            <ul>
+
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Screen Size: 5.5 inches</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Ram: 3 GB</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> OS Version: Android 6.0 (M)</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Battery Capacity: 3300 mAh</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Internal Memory: 16 GB</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Processor Speed: 1.6 Ghz</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Primary Camera: 13 MP</ul>  
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Secondary Camera: 8 MP</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Internal Memory: 16 GB</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Processor Speed: 1.6 Ghz</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Processor Type: Octa Core</ul> 
+            </ul>
+
+  					
+  				</div>
+  				<div class="col-sm-5">
+  				<a href="{% url 'home' %}"><img src="{% static 'img/sa1.jpg'%}" class="img-responsive" alt="image"></a>
+  				</div>
+  			</div><!-- End row -->
+  			</div>
+
+
+
+  			<div class="jumbotron">
+  			<div class="row">
+  				<div class="col-sm-7">
+  					<h3>Samsung Galaxy J2 Ace</h3>
+  					
+  					<ul>
+
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Screen Size: 5 inches</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Ram: 3 GB</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> OS Version: Android 6.0 (M)</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Battery Capacity: 2600 mAh</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Internal Memory: 8 GB</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Processor Speed: 1.6 Ghz</ul>
+             
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Secondary Camera: 5 MP</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Internal Memory: 16 GB</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Processor Speed: 1.4 Ghz</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Processor Type: Octa Core</ul> 
+            </ul>
+</div>
+
+
+<div class="col-sm-5">
+  				<a href="{% url 'home' %}"><img src="{% static 'img/j2.jpg'%}" class="img-responsive" alt="image"></a>
+  				</div>
+  			</div>
+  			</div>
+
+
+
+
+
+  			<div class="jumbotron">
+  			<div class="row">
+  				<div class="col-sm-7">
+  					<h3>Samsung Galaxy A7 (2017)</h3>
+  			
+  					<ul>
+
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Screen Size: 5 inches</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Ram: 3 GB</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> OS Version: Android 6.0 (M)</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Battery Capacity: 2600 mAh</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Internal Memory: 8 GB</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Processor Speed: 1.6 Ghz</ul>
+             
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Secondary Camera: 5 MP</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Internal Memory: 16 GB</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Processor Speed: 1.4 Ghz</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Processor Type: Octa Core</ul> 
+            </ul>
+</div>
+
+
+<div class="col-sm-5">
+  				<a href="{% url 'home' %}"><img src="{% static 'img/sa3.jpg'%}" class="img-responsive" alt="image"></a>
+  				</div>
+  			</div>
+  			</div>
+
+
+<div class="jumbotron">
+<div class="row">
+  				<div class="col-sm-7">
+  					<h3>Samsung Galaxy C9 Pro</h3>
+  			
+  					<ul>
+
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Screen Size: 6 inches</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Ram: 6 GB</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> OS Version: Android 6.0 (M)</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Battery Capacity: 4000 mAh</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Internal Memory: 64 GB</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Processor Speed: 1.6 Ghz</ul>
+             <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Front Camera: 16 MP</ul> 
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Secondary Camera: 16 MP</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Internal Memory: 16 GB</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Processor Speed: 1.44 Ghz</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Processor Type: Octa Core</ul> 
+            </ul>
+</div>
+
+
+<div class="col-sm-5">
+  				<a href="{% url 'home' %}"><img src="{% static 'img/sa4.jpg'%}" class="img-responsive" alt="image"></a>
+  				</div>
+  			</div>
+  			</div>
+
+
+
+  			<div class="jumbotron">
+  			<div class="row"><!-- staring row -->
+  				<div class="col-sm-7"><!-- starting column -->
+  					<h3>Samsung W2017</h3>
+  			
+  					<ul>
+
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Screen Size: 4.20 inches</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Ram: 4 GB</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> OS Version: Android 6.0 (M)</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Battery Capacity: 2600 mAh</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Internal Memory: 64 GB</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Processor Speed: 1.6 Ghz</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Rear Camera: 12 MP</ul>
+             
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Secondary Camera: 5 MP</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Internal Memory: 16 GB</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Processor Speed: 1.4 Ghz</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Processor Type: Octa Core</ul> 
+            </ul>
+</div><!-- ending column -->
+
+
+<div class="col-sm-5"><!-- imaege -->
+  				<a href="{% url 'home' %}"><img src="{% static 'img/j2.jpg'%}" class="img-responsive" alt="image"></a>
+  				</div><!-- image -->
+  			</div><!-- end row -->
+  			</div>
+
+
+
+<div class="jumbotron">
+<div class="row"><!-- staring row -->
+  				<div class="col-sm-7"><!-- starting column -->
+  					<h3>Samsung Galaxy Note7</h3>
+  			
+  					<ul>
+
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Screen Size: 5.70 inches</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Ram: 4 GB</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> OS Version: Android 6.0 (M)</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Battery Capacity: 2600 mAh</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Internal Memory: 64 GB</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Processor Speed: 1.6 Ghz</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Rear Camera: 12 MP</ul> 
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Secondary Camera: 5 MP</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Internal Memory: 16 GB</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Processor Speed: 1.4 Ghz</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Processor Type: Octa Core</ul> 
+            </ul>
+</div><!-- ending column -->
+
+
+<div class="col-sm-5"><!-- imaege -->
+  				<a href="{% url 'home' %}"><img src="{% static 'img/sa5.jpg'%}" class="img-responsive" alt="image"></a>
+  				</div><!-- image -->
+  			</div><!-- end row -->
+  			</div>
+
+
+
+	</div><!-- end tab2 -->
+
+
+
+
+
+
+
+	<div class="tab-pane" id="x"><!-- tab3 -->
+
+
+	<div class ="jumbotron"><!-- jju,m3 -->
+
+
+<div class="row">
+	<div class="col-sm-5">
+		<img src="{% static 'img/mi.png' %}" alt="image">
+		</div>
+
+
+
+  	<div class="col-sm-7">	
+
+  	<h3>Xiaomi is a privately owned company that designs, develops, and sells smartphones, an Android-based OS, and other consumer electronics. Xiaomi also makes fitness trackers, TVs, air purifiers, and tablets</h3>
+  		
+  		</div>
+
+  		</div>
+
+</div><!-- end jum3 -->
+
+
+	<section>
+			
+
+				<div class="carousel slide" id="screenshot-carousel" data-ride="carousel">
+					<ol class="carousel-indicators">
+
+							<li data-target="#screenshot-carousel" data-slide.to="0" class="active"></li>
+							<li data-target="#screenshot-carousel" data-slide.to="1"></li>
+							<li data-target="#screenshot-carousel" data-slide.to="2"></li>
+							<li data-target="#screenshot-carousel" data-slide.to="3"></li>
+
+					</ol>
+
+					<div class="carousel-inner">
+						<div class="item active">
+
+						<img src="{% static 'img/mi1.jpeg'%}" alt="image">
+
+
+						</div>
+						<div class="item">
+
+						<img src="{% static 'img/mi2.png'%}" alt="image">
+
+
+						</div>
+						<div class="item">
+
+						<img src="{% static 'img/mi3.jpg'%}" alt="image">
+
+
+						</div>
+						<div class="item">
+
+						<img src="{% static 'img/mi4.jpg'%}" alt="image">
+
+
+						</div>
+						
+
+
+
+					</div>
+					<a href="#screenshot-carousel" class="left carousel-control" data-slide="prev">
+
+						<span class="glyphicon glyphicon-chevron-left">
+							
+
+						</span>
+						</a>
+						<a href="#screenshot-carousel" class="right carousel-control" data-slide="next">
+
+						<span class="glyphicon glyphicon-chevron-right">
+							
+
+						</span>
+						</a>
+
+			</div>
+
+
+
+
+
+	</section>	
+
+
+
+
+<div class="container">
+<h3>Specs and Features</h3>
+
+<br>
+<br>
+<div class="jumbotron">
+<div class="row"><!-- staring row -->
+  				<div class="col-sm-7"><!-- starting column -->
+  					<h3>Xiaomi Redmi 4A</h3>
+  			
+  					<ul>
+
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Screen Size: 5 inches</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Ram: 2 GB</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> OS Version: Android 6.0 (M)</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Battery Capacity: 3120 mAh</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Internal Memory: 16 GB</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Processor Speed: 1.6 Ghz</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Rear Camera: 13 MP</ul>
+             
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Secondary Camera: 5 MP</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Internal Memory: 16 GB</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Processor Speed: 1.4 Ghz</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Processor Type: Quad Core</ul> 
+            </ul>
+</div><!-- ending column -->
+
+
+<div class="col-sm-5"><!-- imaege -->
+  				<a href="{% url 'home' %}"><img src="{% static 'img/x1.jpeg'%}" class="img-responsive" alt="image"></a>
+  				</div><!-- image -->
+  			</div><!-- end row -->
+  			</div>
+
+
+<div class="jumbotron">
+<div class="row"><!-- staring row -->
+  				<div class="col-sm-7"><!-- starting column -->
+  					<h3>Xiaomi Redmi 4 Prime</h3>
+  			
+  					<ul>
+
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Screen Size:5 inches</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Ram: 3 GB</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> OS Version: Android 6.0 (M)</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Battery Capacity: 4100 mAh</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Internal Memory: 32 GB</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Processor Speed: 1.6 Ghz</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Rear Camera: 13 MP</ul>
+             
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Secondary Camera: 5 MP</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Internal Memory: 16 GB</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Processor Speed: 2 Ghz</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Processor Type: Octa Core</ul> 
+            </ul>
+</div><!-- ending column -->
+
+
+<div class="col-sm-5"><!-- imaege -->
+  				<a href="{% url 'home' %}"><img src="{% static 'img/x2.jpeg'%}" class="img-responsive" alt="image"></a>
+  				</div><!-- image -->
+  			</div><!-- end row -->
+  			</div>
+
+
+
+
+
+
+
+  			<div class="jumbotron">
+  			<div class="row"><!-- staring row -->
+  				<div class="col-sm-7"><!-- starting column -->
+  				<h3>Xiaomi Redmi 4</h3>
+  			
+  					<ul>
+
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Screen Size: 4.20 inches</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Ram: 2 GB</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> OS Version: Android 6.0 (M)</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Battery Capacity: 4100 mAh</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Internal Memory: 16 GB</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Processor Speed: 1.6 Ghz</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Rear Camera: 13 MP</ul>
+             
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Secondary Camera: 5 MP</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Internal Memory: 16 GB</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Processor Speed: 1.4 Ghz</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Processor Type: Octa Core</ul> 
+            </ul>
+</div><!-- ending column -->
+
+
+<div class="col-sm-5"><!-- imaege -->
+  				<a href="{% url 'home' %}"><img src="{% static 'img/x3.jpeg'%}" class="img-responsive" alt="image"></a>
+  				</div><!-- image -->
+  			</div><!-- end row -->
+  			</div>
+
+<div class="jumbotron">
+<div class="row"><!-- staring row -->
+  				<div class="col-sm-7"><!-- starting column -->
+  					<h3>Xiaomi Mi MIX</h3>
+  			
+  					<ul>
+
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Screen Size: 6.40 inches</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Ram: 4 GB</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> OS Version: Android 6.0 (M)</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Battery Capacity: 4400 mAh</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Internal Memory: 128 GB</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Processor Speed: 1.6 Ghz</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Rear Camera: 16 MP</ul>
+             
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Secondary Camera: 5 MP</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Internal Memory: 16 GB</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Processor Speed: 1.4 Ghz</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Processor Type: Octa Core</ul> 
+            </ul>
+</div><!-- ending column -->
+
+
+<div class="col-sm-5"><!-- imaege -->
+  				<a href="{% url 'home' %}"><img src="{% static 'img/x4.jpeg'%}" class="img-responsive" alt="image"></a>
+  				</div><!-- image -->
+  			</div><!-- end row -->
+  			</div>
+
+
+<div class="jumbotron">
+<div class="row"><!-- staring row -->
+  				<div class="col-sm-7"><!-- starting column -->
+  					<h3>Xiaomi Mi Note 2</h3>
+  			
+  					<ul>
+
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Screen Size: 5.70 inches</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Ram: 4 GB</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> OS Version: Android 6.0 (M)</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Battery Capacity: 4070 mAh</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Internal Memory: 64 GB</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Processor Speed: 1.6 Ghz</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Rear Camera: 22 MP</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Resolution: 1080x1920 pixels</ul>             
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Secondary Camera: 8 MP</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Internal Memory: 16 GB</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Processor Speed: 1.4 Ghz</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Processor Type: Octa Core</ul> 
+            </ul>
+</div><!-- ending column -->
+
+
+<div class="col-sm-5"><!-- imaege -->
+  				<a href="{% url 'home' %}"><img src="{% static 'img/x5.jpeg'%}" class="img-responsive" alt="image"></a>
+  				</div><!-- image -->
+  			</div><!-- end row -->
+  			</div>
+
+
+<div class="jumbotron">
+<div class="row"><!-- staring row -->
+  				<div class="col-sm-7"><!-- starting column -->
+  					<h3>Xiaomi Mi 5s Plus</h3>
+  			
+  					<ul>
+
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Screen Size: 5.70 inches</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Ram: 4 GB</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> OS Version: Android 6.0 (M)</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Battery Capacity: 3800 mAh</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Internal Memory: 64 GB</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Processor Speed: 1.6 Ghz</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Rear Camera: 13 MP</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Resolution: 1080x1920 pixels</ul> 
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Secondary Camera: 4 MP</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Internal Memory: 16 GB</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Processor Speed: 1.4 Ghz</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Processor Type: Octa Core</ul> 
+            </ul>
+</div><!-- ending column -->
+
+
+<div class="col-sm-5"><!-- imaege -->
+  				<a href="{% url 'home' %}"><img src="{% static 'img/x6.jpeg'%}" class="img-responsive" alt="image"></a>
+  				</div><!-- image -->
+  			</div><!-- end row -->
+  			</div>
+
+
+
+<div class="jumbotron">
+<div class="row"><!-- staring row -->
+  				<div class="col-sm-7"><!-- starting column -->
+  					<h3>Xiaomi Mi 5</h3>
+  			
+  					<ul>
+
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Screen Size: 5.15 inches</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Ram: 3 GB</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> OS Version: Android 6.0 (M)</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Battery Capacity: 3000 mAh</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Internal Memory: 32 GB</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Processor Speed: 1.6 Ghz</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Rear Camera: 12 MP</ul>
+             
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Secondary Camera: 4 MP</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Internal Memory: 16 GB</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Processor Speed: 1.4 Ghz</ul>
+            <ul><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Processor Type: Octa Core</ul> 
+            </ul>
+</div><!-- ending column -->
+
+
+<div class="col-sm-5"><!-- imaege -->
+  				<a href="{% url 'home' %}"><img src="{% static 'img/13.jpg'%}" class="img-responsive" alt="image"></a>
+  				</div><!-- image -->
+  			</div><!-- end row -->
+  			</div>
+
+
+
+
+
+	</div><!-- end tab3 -->
+
+
+	
+
+
+
+
+</div><!-- tabcontent -->
+
+</div><!-- con1 -->
+
+
+{% endblock %}
